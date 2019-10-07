@@ -1,36 +1,77 @@
 .contenedor{
-    display: block;
+    position: absolute;
+    border: solid 5px green;
     
-    
-    
+    width: 100%;
 }
- header.cabecera{
-    display: block;
-    
+.cabecera{
+
     border: solid 5px black;
-    height: 600px;
+    background-image: url(../Imagenes/canon-camara.jpg);
+    background-position: center;
+    background-size: 100%,100%;
+    height: 100%;
+    
+    
    
 }
+.contenedor p{
 
-img.logo{
+    margin-top:40%;
+    margin-left:5%;
+}
 
-    float: left;
+
+.logo{
+
+    
     width: 10%;
     margin-left: 5% ;
-    margin-top: 5%;
+    margin-top: 5%; 
 }
 
-nav.menu{
-    float: right;
-    width: 10%;
-    margin-right: 20% ;
-    margin-top: 5%;
-}
-
-.subtitulo{
-    position: absolute;
-    left: 5% ;
-    top: 100% ;
+.menu{
     
-  
+    float:right;
+    border: solid 5px black;
+    width: 15%;
+    margin-right: 5% ;
+    margin-left: 60% ;
+    margin-top: 5%;
+}
+
+ 
+
+.info{
+    display: block;
+    width: 90%;
+    
+    display: block;
+    clear: both;
+    border: solid 5px red;
+   
+}
+.titulo{
+    display:block;
+    margin-left: 45%;
+}
+
+.detalles{
+display: inline-block;
+border: solid 5px blue;
+width: 32%;
+height: 60%;
+
+
+}
+.detalles h2{
+    margin-left:40%;
+}
+
+
+.i-logo{
+    display: block;
+    margin-left: 35%;
+    width: 30%;
+    height: 30%;
 }
