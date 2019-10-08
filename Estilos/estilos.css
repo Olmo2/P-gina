@@ -205,6 +205,8 @@ display: inline-block;
   .banner h1{
       font-size: 2vw;
       padding: 5vw;
-      
-
+  }
+  .banner p{
+      font-size:1vw;
+      padding-left: 1vw;
   }
