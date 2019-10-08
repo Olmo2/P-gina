@@ -1,77 +1,210 @@
 .contenedor{
-    position: absolute;
-    border: solid 5px green;
     
-    width: 100%;
+    text-align: center;
+   margin-right: 5%;
+   margin-left: 4%;
+   /* border: solid 5px green;*/
+    width: 90%;
 }
 .cabecera{
 
-    border: solid 5px black;
+    /*border: solid 5px black;*/
     background-image: url(../Imagenes/canon-camara.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: 100%,100%;
     height: 100%;
     
     
    
 }
-.contenedor p{
-
-    margin-top:40%;
-    margin-left:5%;
-}
-
 
 .logo{
 
-    
+    display: inline-block;
     width: 10%;
     margin-left: 5% ;
     margin-top: 5%; 
 }
 
-.menu{
+
+  .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0);
+      }
+      
+      .menu li {
+        float: left;
+        margin-right: 1%;
+      }
+      
+     .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 1vw;
+        padding: 1vw;
+        text-decoration: none;
+      }
+      
+    .menu  li a:hover {
+        
+        border-radius: 12%;
+        background-color: #111;
+        
+      }
+      .menu{
+    font-family: 'Permanent Marker', cursive;
+    float: right;
+
     
-    float:right;
-    border: solid 5px black;
-    width: 15%;
-    margin-right: 5% ;
-    margin-left: 60% ;
+    width: 30%;
+    margin-right: 10% ;
     margin-top: 5%;
+}
+.Sub{
+    font-family: 'Righteous', cursive;
+    font-size: 2vw;
+    /*border: solid 5px palevioletred;*/
+    color: white;
+    width: 30%;
+    
+    margin-top:30%;
+    margin-bottom: 5%;
+    margin-left:5%;
+
+    
+
 }
 
  
 
 .info{
     display: block;
-    width: 90%;
     
-    display: block;
-    clear: both;
-    border: solid 5px red;
+   /* border: solid 5px red;*/
    
 }
-.titulo{
+
+.tituloSeccion{
+    font-family: 'Permanent Marker', cursive;
     display:block;
-    margin-left: 45%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.articulos{
+    display: block;
+   /* border: solid 5px lawngreen;*/
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
 }
 
 .detalles{
+font-size: 1vw;
 display: inline-block;
-border: solid 5px blue;
+text-align:center;
+/*border: ridge 5px grey;*/
 width: 32%;
 height: 60%;
 
-
+}
+.detalles p{
+    font-family: 'Bitter', serif;
 }
 .detalles h2{
-    margin-left:40%;
+    font-family: 'Orbitron', sans-serif;
 }
+.ofertas{
+    display: block;
+    /*border: solid 5px rgb(240, 176, 0);*/
+   
+}
+.ofertas .detalles{
+
+    background-color: grey;
+}
+.camara{
+    display: block;
+   
+    width: 100%;
+    height: 100%;
+
+}
+.caracteristicas img{
+display: inline-block;
+    margin-right: 15%;
+    width: 10%;
+    height: 10%;
 
 
-.i-logo{
+}
+.info-logo{
     display: block;
     margin-left: 35%;
     width: 30%;
     height: 30%;
 }
+.detalles .button {
+    border-radius: 8%;
+    font-family: 'Orbitron', sans-serif;
+    background-color:rgb(204,2,2);
+    border: solid 0.2vw rgb(204,2,2) ;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin-right: 5%;
+    transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  .detalles .button:hover{
+      background-color: white;
+      border: solid 0.2vw rgb(204,2,2) ;
+      color: black;
+  }
+
+  .button1:hover{
+    background-color: white;
+    border: solid 0.2vw rgb(61, 59, 58) ;
+    color: black;
+}
+
+  .button1 {
+    border-radius: 8%;
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(61, 59, 58);
+    border: solid 0.2vw rgb(61, 59, 58) ;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 10%; 
+    font-size: 1vw;
+    margin-top: 2.5%;
+    margin-left: 83%;
+    transition-duration: 0.4s;
+  cursor: pointer; 
+  }
+
+  .banner{
+      display: block;
+      font-family: 'Righteous', cursive;
+      color: white;
+      background-image: url(../Imagenes/ciudad.jpg);
+      background-position: center;
+    background-size: 100%,100%;
+    height: 20vw;
+  }
+
+  .banner h1{
+      font-size: 2vw;
+      padding: 5vw;
+      
+
+  }
