@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Bitter|Orbitron|Permanent+Marker|Righteous&display=swap"
         rel="stylesheet">
-        <link rel="icon" type="image/png" href="Imagenes/canon_fire_war_shoot_blast-512.png">
+        <link rel="icon" type="image/png" href="Imagenes/cannon-128.ico">
     <title>Canon</title>
 </head>
 
@@ -29,8 +29,8 @@
         </nav>
 
         <div class="Sub">
-            <p>Tu Puta madre en barco</p>
-            <p>Con Sida espero porque me das asco</p>
+            <p>Camaras de alta calidad Profesional</p>
+            <p>Con amplia variedad de objetivos</p>
         </div>
 
     </header>
@@ -128,26 +128,64 @@
     </section>
     <div class="contenedor">
         <section class="blog">
-
+            <h1>Nuestro blog</h1>
             <section class="entrada">
-                <article class="imagen"></article>
-                <article class="txt"></article>
+                <article class="imagen">
+                        <img src="Imagenes/farm.jpg" width="100%" height="80%"/>
+
+                </article>
+                <article class="txt">
+                        <h2>Granja otoñal</h2>
+                        <hr>
+                        <p id="fecha">Escrito el: </p>
+                        <p>Fografia hecha con una Canon 80D</p>
+                </article>
 
             </section>
             <section class="entrada">
-                    <article class="imagen"></article>
-                    <article class="txt"></article>
+                    <article class="imagen">
+                        <img src="Imagenes/montañas.jpg" width="100%" height="80%"/>
+                    </article>
+                    <article class="txt">
+                        <h2>Imagen de montañas </h2>
+                        <hr>
+                        <p id="fecha">Escrito el: </p>
+                        <p>Fografia hecha con una Canon 80D</p>
+
+                        
+                    </article>
     
                 </section>
 
         </section>
 
         <section class="test">
-            <article class="entrada"></article>
+            <h1>Testimoniales</h1>
+            <article class="testimonio">
+            <div class="comillas">
+                <h1>‘‘</h1>
+            </div>
+            <div class="cuerpo">  
+                <p>ES UNA CÁMARA PARA UN FOTÓGRAFO QUE NO SE CONFORME CON UNA GAMA INFERIOR,
+                     CON UN TAMAÑO IDEAL Y FUNCIONES MUY AVANZADAS. 
+                     EL ENFOQUE AUTOMÁTICO MÁS ÚTIL ES EL PUNTUAL. 
+                     EL RANGO DINÁMICO ES ADECUADO AL SEGMENTO.
+                </p>
+                <p>-Jose Luis rodriguez-</p>
+            </div>
+            </article>
             
         </section>
        
     </div>
+
+    <script>
+            var d = new Date();
+             var n = d.toLocaleDateString(); + " por: Admin";
+            document.getElementById("fecha").innerHTML+= n;
+            
+            </script>
+    
 </body>
 
 </html>

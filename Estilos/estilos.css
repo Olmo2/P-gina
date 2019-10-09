@@ -120,7 +120,7 @@ height: 60%;
 }
 .ofertas{
     display: block;
-    /*border: solid 5px rgb(240, 176, 0);*/
+    border: solid 5px rgb(240, 176, 0);*
    
 }
 .ofertas .detalles{
@@ -238,23 +238,76 @@ display: inline-block;
 }
 .blog{
     display:inline-block;
-    border-radius: 12%;
-    border: solid 0.2vw rgb(2, 147, 204) ;
+    
+    /* border-radius: 12%;
+    border: solid 0.2vw rgb(2, 147, 204) ; */
     width: 48%; 
     height: 40vw;
 }
+.blog h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2vw; 
+}
 .entrada{
-    border: solid 0.2vw rgb(204, 174, 2) ;
-    display: inline-block;
-    background-color: aqua;
-    width: 40%;
-    margin-top: 10%;
-    height: 80%;
-    margin-left:1.25%;
+    
+    display: block;
+     border: solid 0.2vw rgb(204, 174, 2) ;
+    border-radius: 12%;
+    background-color: aqua; 
+    width: 95%;
+    margin-top: 5%;
+    height: 40%;
+    margin-left:2.5%;
     margin-right: 1.25%;
 }
- 
 
+.imagen{
+    display: inline-block;
+    /* background-image: url(../Imagenes/montañas.jpg);
+    background-position:center;
+    background-size:110%,110%; */
+    width: 40%;
+    margin-top: 5%;
+    height: 80%;
+    margin-left:2.5%;
+    margin-right: 1.25%;
+}
+.imagen img{
+    display: block;
+    text-align: center;
+    margin-top:5%
+}
+.txt{
+    display: inline-block;
+    text-align: center;
+    
+    width: 50%;
+    margin-top: 5%;
+    height: 80%;
+    margin-left:2.5%;
+    margin-right: 1.25%;
+
+}
+.txt h2{
+    font-family: 'Righteous', cursive;
+    float: left;
+    margin-left:5%; 
+    font-size: 1vw;
+
+}
+.txt hr { 
+    display: block;
+    margin-right: 53%;
+    border: 0.2vw solid  rgb(204,2,2);
+    width: 40%
+  } 
+.txt p{
+    float: left;
+    margin-left:5%; 
+    font-family: 'Bitter', serif;
+    font-size: 0.8vw;
+
+}
 .test{
     display: inline-block;
     border-radius: 12%;
@@ -262,4 +315,44 @@ display: inline-block;
     border: solid 0.2vw rgb(204, 93, 2) ;
     width: 48%;    
     height: 40vw;
+}
+.testimonio{
+    
+    display: block;
+     border: solid 0.2vw rgb(204, 174, 2) ;
+    border-radius: 12%;
+    background-color: aqua; 
+    width: 95%;
+    margin-top: 5%;
+    height: 80%;
+    margin-left:2.5%;
+    margin-right: 1.25%;
+}
+
+.test h1{
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2vw; 
+}
+.testimonio .comillas{
+    text-align: left;
+    display: inline-block;
+    border: solid 0.2vw rgb(204, 174, 2) ;
+    width: 20%;
+    height: 80%;
+   
+   
+}
+.comillas h1{
+    display:block;
+    font-size: 7vw;
+}
+.testimonio .cuerpo{
+    font-family: 'Bitter', serif;
+    border: solid 0.2vw rgb(204, 174, 2) ;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+
 }
