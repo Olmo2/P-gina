@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Bitter|Orbitron|Permanent+Marker|Righteous&display=swap"
         rel="stylesheet">
-        <link rel="icon" type="image/png" href="Imagenes/cannon-128.ico">
+    <link rel="icon" type="image/png" href="Imagenes/cannon-128.ico">
     <title>Canon</title>
 </head>
 
@@ -131,61 +131,92 @@
             <h1>Nuestro blog</h1>
             <section class="entrada">
                 <article class="imagen">
-                        <img src="Imagenes/farm.jpg" width="100%" height="80%"/>
+                    <img src="Imagenes/farm.jpg" width="100%" height="80%" />
 
                 </article>
                 <article class="txt">
-                        <h2>Granja otoñal</h2>
-                        <hr>
-                        <p id="fecha">Escrito el: </p>
-                        <p>Fografia hecha con una Canon 80D</p>
+                    <h2>Granja otoñal, del norte de europa</h2>
+                    <p>Escrito el: <a class="fecha"></a> por Admin</p>
+                   
+                    <p>Fografia hecha con una Canon 80D,
+                        sigue nuestro blog para descubrir como
+                        hacer fotos como esta</p>
+                        <br>
+                        <br>
+                        <br>
                 </article>
 
             </section>
             <section class="entrada">
-                    <article class="imagen">
-                        <img src="Imagenes/montañas.jpg" width="100%" height="80%"/>
-                    </article>
-                    <article class="txt">
-                        <h2>Imagen de montañas </h2>
-                        <hr>
-                        <p id="fecha">Escrito el: </p>
-                        <p>Fografia hecha con una Canon 80D</p>
+                <article class="imagen">
+                    <img src="Imagenes/montañas.jpg" width="100%" height="80%" />
+                </article>
+                <article class="txt">
+                    <h2>Imagen de montañas, del norte de asia</h2>
 
-                        
-                    </article>
-    
-                </section>
+                    <p>Escrito el: <a class="fecha"></a> por Admin </p>
+                    
+                    <p>Fografia hecha con una Canon 80D,
+                        sigue nuestro blog para descubrir como
+                        hacer fotos como esta
+                    </p>
+                    <br>
+                    <br>
+                    <br>
 
+
+                </article>
+
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
         </section>
 
         <section class="test">
             <h1>Testimoniales</h1>
             <article class="testimonio">
-            <div class="comillas">
-                <h1>‘‘</h1>
-            </div>
-            <div class="cuerpo">  
-                <p>ES UNA CÁMARA PARA UN FOTÓGRAFO QUE NO SE CONFORME CON UNA GAMA INFERIOR,
-                     CON UN TAMAÑO IDEAL Y FUNCIONES MUY AVANZADAS. 
-                     EL ENFOQUE AUTOMÁTICO MÁS ÚTIL ES EL PUNTUAL. 
-                     EL RANGO DINÁMICO ES ADECUADO AL SEGMENTO.
-                </p>
-                <p>-Jose Luis rodriguez-</p>
-            </div>
+                
+                <blockquote class="cuerpo">
+                    <p>ES UNA CÁMARA PARA UN FOTÓGRAFO QUE NO SE CONFORME CON UNA GAMA INFERIOR,
+                        CON UN TAMAÑO IDEAL Y FUNCIONES MUY AVANZADAS.
+                        EL ENFOQUE AUTOMÁTICO MÁS ÚTIL ES EL PUNTUAL.
+                        EL RANGO DINÁMICO ES ADECUADO AL SEGMENTO.
+                    </p>
+                    <cite>Jose Luis rodriguez</cite>
+                </blockquote>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+                <br>
+                
+                <br>
             </article>
-            
+
         </section>
-       
+
     </div>
 
     <script>
-            var d = new Date();
-             var n = d.toLocaleDateString(); + " por: Admin";
-            document.getElementById("fecha").innerHTML+= n;
-            
-            </script>
-    
-</body>
+        var d = new Date();
+        var n = d.toLocaleDateString();
+        var x = document.getElementsByClassName("fecha");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].innerHTML += n;
+        }
+        
+        
 
-</html>
+    </script>
+    
+    </body>
+    
+    </html>

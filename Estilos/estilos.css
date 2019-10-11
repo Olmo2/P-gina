@@ -3,7 +3,7 @@
     text-align: center;
    margin-right: 5%;
    margin-left: 4%;
-    border: solid 5px green;
+    /* border: solid 5px green; */
     width: 90%;
 }
 .cabecera{
@@ -97,7 +97,7 @@
 }
 .articulos{
     display: block;
-    border: solid 5px lawngreen;
+    /* border: solid 5px lawngreen; */
     margin-right: 5%;
     margin-left: 5%;
     width: 90%;
@@ -120,7 +120,7 @@ height: 60%;
 }
 .ofertas{
     display: block;
-    border: solid 5px rgb(240, 176, 0);*
+    /* border: solid 5px rgb(240, 176, 0); */
    
 }
 .ofertas .detalles{
@@ -251,9 +251,9 @@ display: inline-block;
 .entrada{
     
     display: block;
-     border: solid 0.2vw rgb(204, 174, 2) ;
+     /* border: solid 0.2vw rgb(204, 174, 2) ;
     border-radius: 12%;
-    background-color: aqua; 
+    background-color: aqua;  */
     width: 95%;
     margin-top: 5%;
     height: 40%;
@@ -279,8 +279,8 @@ display: inline-block;
 }
 .txt{
     display: inline-block;
-    text-align: center;
-    
+    text-align: left;
+    /* border:2px solid rgb(204,255,2); */
     width: 50%;
     margin-top: 5%;
     height: 80%;
@@ -290,38 +290,48 @@ display: inline-block;
 }
 .txt h2{
     font-family: 'Righteous', cursive;
-    float: left;
+
+    display:block;
+    
     margin-left:5%; 
-    font-size: 1vw;
+   
+    font-size: 1.2vw;
 
 }
-.txt hr { 
-    display: block;
-    margin-right: 53%;
-    border: 0.2vw solid  rgb(204,2,2);
-    width: 40%
-  } 
+
 .txt p{
-    float: left;
+    display:block;
     margin-left:5%; 
     font-family: 'Bitter', serif;
     font-size: 0.8vw;
 
 }
+.txt a{
+    color: firebrick;
+    text-decoration:underline;
+}
+.txt h2::after{
+    content: " ";
+    width:30%;
+    display:block;
+    border:2px solid rgb(204,2,2);
+    font-weight: bold;
+}
 .test{
     display: inline-block;
-    border-radius: 12%;
-    background-color:  rgb(204,2,2);
-    border: solid 0.2vw rgb(204, 93, 2) ;
+    color: black;
+    
     width: 48%;    
     height: 40vw;
 }
 .testimonio{
-    
+    text-align: center;
     display: block;
-     border: solid 0.2vw rgb(204, 174, 2) ;
+    border-radius: 10%; 
+    background-color: rgb(204,2,2);
+     /* border: solid 0.2vw rgb(204, 174, 2) ;
     border-radius: 12%;
-    background-color: aqua; 
+    background-color: aqua;  */
     width: 95%;
     margin-top: 5%;
     height: 80%;
@@ -334,25 +344,35 @@ display: inline-block;
     font-family: 'Permanent Marker', cursive;
     font-size: 2vw; 
 }
-.testimonio .comillas{
-    text-align: left;
-    display: inline-block;
-    border: solid 0.2vw rgb(204, 174, 2) ;
-    width: 20%;
-    height: 80%;
-   
-   
-}
-.comillas h1{
-    display:block;
-    font-size: 7vw;
-}
-.testimonio .cuerpo{
-    font-family: 'Bitter', serif;
-    border: solid 0.2vw rgb(204, 174, 2) ;
-    display: inline-block;
-    text-align: center;
-    width: 70%;
-    height: 80%;
 
-}
+blockquote {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-size: 1.3vw;
+    font-style: italic;
+    color: white;
+    line-height: 2.5;
+
+    }
+    blockquote p{
+        margin-top: -20%;
+    }
+blockquote::before {
+    font-family: 'Permanent Marker', cursive;
+    display: block;
+    text-align: left;
+    margin-top:10%;
+    content: "\201C";
+    font-size: 5vw;
+    color: white;
+    }
+    blockquote cite {
+        color:white;
+        font-size: 1vw;
+        display: block;
+        margin-top: 5%;
+        }
+         
+        blockquote cite:before {
+        content: "\2014 ";
+        }
