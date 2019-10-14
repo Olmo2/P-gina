@@ -1,9 +1,9 @@
 .contenedor{
-    
+    display: block;
     text-align: center;
    margin-right: 5%;
    margin-left: 4%;
-    /* border: solid 5px green; */
+    border: solid 5px green;
     width: 90%;
 }
 .cabecera{
@@ -238,9 +238,9 @@ display: inline-block;
 }
 .blog{
     display:inline-block;
-    
-    /* border-radius: 12%;
-    border: solid 0.2vw rgb(2, 147, 204) ; */
+margin-bottom:-50%; 
+    border-radius: 12%;
+    border: solid 0.2vw rgb(2, 147, 204) ;
     width: 48%; 
     height: 40vw;
 }
@@ -314,13 +314,15 @@ display: inline-block;
     content: " ";
     width:30%;
     display:block;
-    border:2px solid rgb(204,2,2);
+    border: 0.2vw solid rgb(204,2,2);
     font-weight: bold;
 }
 .test{
     display: inline-block;
     color: black;
-    
+     border: solid 0.2vw rgb(204, 174, 2) ;
+    border-radius: 12%;
+   
     width: 48%;    
     height: 40vw;
 }
@@ -376,3 +378,53 @@ blockquote::before {
         blockquote cite:before {
         content: "\2014 ";
         }
+
+footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 5%;
+            background-color: red;
+            color: white;
+            text-align: left;
+         }
+         .footer ul {
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0);
+          }
+          
+          .footer li {
+            display: inline-block;
+            
+            
+          }
+          
+         .footer li a {
+            display: block;
+            color: black;
+            text-align: center;
+            font-size: 2vw;
+            padding: 1vw;
+            text-decoration: none;
+          }
+          
+        .footer  li a:hover {
+            
+            border-radius: 12%;
+            background-color: #111;
+            color: white;
+            
+          }
+          .footer{
+        font-family: 'Permanent Marker', cursive;
+        float: right;
+    
+        
+        width: 30%;
+        margin-right: 10% ;
+        margin-top: 5%;
+    }
