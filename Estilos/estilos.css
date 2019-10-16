@@ -3,7 +3,7 @@
     text-align: center;
    margin-right: 5%;
    margin-left: 4%;
-    border: solid 5px green;
+    /* border: solid 5px green; */
     width: 90%;
 }
 .cabecera{
@@ -246,7 +246,8 @@ display: inline-block;
     display:inline-block;
 
     border-radius: 12%;
-    border: solid 0.2vw rgb(2, 147, 204) ;
+    /* border: solid 0.2vw rgb(2, 147, 204) ; */
+    vertical-align: top;
     width: 48%; 
     height: 40vw;
 }
@@ -318,17 +319,18 @@ display: inline-block;
 }
 .txt h2::after{
     content: " ";
-    width:30%;
+    width:32%;
     display:block;
-    border: 0.2vw solid rgb(204,2,2);
+    border: 0.25vw solid rgb(204,2,2);
     font-weight: bold;
 }
 .test{
     display: inline-block;
     color: black;
-     border: solid 0.2vw rgb(204, 174, 2) ;
+     /* border: solid 0.2vw rgb(204, 174, 2) ; */
     border-radius: 12%;
-    margin-top:0% ;
+   margin-bottom:5%;
+    vertical-align: top;
     width: 48%;    
     height: 40vw;
 }
@@ -394,11 +396,13 @@ footer {
             
             width: 102.5%;
             height: 10%;
-            background-color: red;
+            background-color: rgb(204,2,2);
             color: white;
             text-align: left;
          }
          .footer {
+             display: inline-block;
+            
              margin-left: 4%;
          }
          .footer ul {
@@ -431,4 +435,11 @@ footer {
             color: white;
             
           }
+
+footer .derechos{
+    color:black;
+    float: right;
+    margin-right:10% ;
+    margin-top: 1%;
+}
      
